@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-04-16T17:12:04.322317+00:00",
+  "config": {
+    "panel_tsv": "results/panels/wastewater_ed_panel.high_fidelity.tsv",
+    "subset": "high_fidelity",
+    "y_lags": 4,
+    "ww_lags": 4,
+    "test_weeks": 52,
+    "ridge_alpha": 1.0,
+    "mape_epsilon": 1e-05,
+    "include_seasonal_naive": false,
+    "context": "both",
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "inputs": {
+    "panel_tsv": "results/panels/wastewater_ed_panel.high_fidelity.tsv"
+  },
+  "outputs": {
+    "benchmark_tsv": "results/benchmark/high_fidelity_forecast_benchmark.tsv",
+    "summary_tsv": "results/benchmark/high_fidelity_forecast_benchmark_summary.tsv",
+    "ablation_tsv": "results/ablation/high_fidelity_signal_ablation.tsv"
+  },
+  "rows": {
+    "benchmark": 448,
+    "summary": 24,
+    "ablation": 224
+  }
+}

@@ -1,0 +1,5 @@
+subset	context	horizon_weeks	pathogen	n_series	mean_rmse_naive_persistence	mean_rmse_ridge_ar	mean_rmse_ridge_fusion	mean_rmse_ridge_ww_only	frac_fusion_better_than_ar
+geo_matched_state	early_warning	1	Influenza	1	0.28658714944505503	1.2539289693728226	1.1529010511161881	2.5089083402141235	1.0
+geo_matched_state	early_warning	2	Influenza	1	0.3175151471693742	1.2982445409289776	1.2076500901961107	2.553616644557158	1.0
+geo_matched_state	early_warning	3	Influenza	1	0.3360956070491028	1.3164984362209846	1.2421581580166088	2.5713536555342578	1.0
+geo_matched_state	early_warning	4	Influenza	1	0.34703562765180723	1.3035945010376966	1.2382613908412674	2.5784956991334744	1.0

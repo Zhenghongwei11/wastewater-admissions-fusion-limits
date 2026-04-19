@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Wastewater–Admissions Fusion Limits: Public Reproducibility Package"
+authors:
+  - family-names: "Zheng"
+    given-names: "Hongwei"
+    affiliation: "Quanzhou Medical College, Quanzhou, Fujian 362000, China"
+    email: "lgmoon@qzmc.edu.cn"
+version: "0.1.0"
+date-released: "2026-04-19"
+url: "https://github.com/Zhenghongwei11/wastewater-admissions-fusion-limits"
+license: "MIT"
+

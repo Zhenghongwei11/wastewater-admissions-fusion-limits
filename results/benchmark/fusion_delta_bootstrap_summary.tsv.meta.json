@@ -1,0 +1,17 @@
+{
+  "bootstrap": {
+    "ci_alpha": 0.05,
+    "n_boot": 5000,
+    "seed": 7
+  },
+  "generated_at_utc": "2026-04-16T17:12:39.083009+00:00",
+  "inputs": {
+    "benchmark": "results/benchmark/high_fidelity_forecast_benchmark.tsv",
+    "negative_control": "results/robustness/negative_control_shuffle_benchmark.tsv"
+  },
+  "outputs": {
+    "bootstrap": "results/benchmark/fusion_delta_bootstrap_summary.tsv",
+    "delta": "results/benchmark/fusion_delta_by_series.tsv",
+    "neg_summary": "results/robustness/negative_control_shuffle_effect_summary.tsv"
+  }
+}

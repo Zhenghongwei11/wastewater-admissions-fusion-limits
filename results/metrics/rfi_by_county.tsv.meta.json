@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "benchmark_earlier": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/benchmark.earlier.tsv",
+    "benchmark_later": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/benchmark.later.tsv",
+    "ed_panel_earlier": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/ed_panel.earlier.tsv",
+    "ed_panel_later": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/ed_panel.later.tsv",
+    "panel_earlier": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/wastewater_ed_panel.earlier.norm.tsv",
+    "panel_later": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi/wastewater_ed_panel.later.norm.tsv"
+  },
+  "benchmark_context": "early_warning",
+  "benchmark_horizon": 1,
+  "common_window": {
+    "end": "2026-04-11",
+    "start": "2022-02-05"
+  },
+  "generated_at_utc": "2026-04-16T16:07:04.530391+00:00",
+  "models": [
+    "ridge_fusion",
+    "ridge_ar"
+  ],
+  "snapshot": {
+    "full_pull_earlier": "2026-04-16_fullpull02",
+    "full_pull_later": "2026-04-17_fullpull01",
+    "nwss_dir_earlier": "/Users/lgmoon/Desktop/mglxbx/data/raw/nwss_core/2026-04-16_nwss_hifi10_02",
+    "nwss_dir_later": "/Users/lgmoon/Desktop/mglxbx/data/raw/nwss_core/2026-04-17_nwss_hifi10_01",
+    "tx_run_earlier": "2026-04-16_txresp02",
+    "tx_run_later": "2026-04-17_txresp01"
+  },
+  "tmp_dir": "/Users/lgmoon/Desktop/mglxbx/tmp/rfi",
+  "window_weeks": 52
+}

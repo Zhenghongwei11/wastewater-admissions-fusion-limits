@@ -1,0 +1,82 @@
+{
+  "generated_at_utc": "2026-04-18T15:56:05.281693+00:00",
+  "config": {
+    "panel_path": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+    "subset": "geo_matched_state",
+    "y_col": "hosp_admissions_per_100k",
+    "ww_col": "nwss_conc_mean",
+    "horizon_weeks": 1,
+    "y_lags": 4,
+    "ww_lags": 4,
+    "test_weeks": 52,
+    "min_weeks": 60,
+    "ridge_alpha": 1.0,
+    "rf_n_estimators": 150,
+    "rf_random_state": 42,
+    "tune_val_weeks": 13,
+    "rf_max_depth_grid": [
+      4,
+      8
+    ],
+    "rf_min_samples_leaf_grid": [
+      1,
+      5
+    ],
+    "rf_max_features_grid": [
+      1.0
+    ],
+    "hgb_max_depth_grid": [
+      3,
+      5
+    ],
+    "hgb_learning_rate_grid": [
+      0.05,
+      0.1
+    ],
+    "hgb_max_leaf_nodes_grid": [
+      31
+    ],
+    "xgb_n_estimators": 600,
+    "xgb_random_state": 42,
+    "xgb_early_stopping_rounds": 25,
+    "xgb_tune_series": 12,
+    "xgb_max_depth_grid": [
+      3,
+      5
+    ],
+    "xgb_learning_rate_grid": [
+      0.05,
+      0.1
+    ],
+    "xgb_subsample_grid": [
+      1.0
+    ],
+    "xgb_colsample_bytree_grid": [
+      1.0
+    ],
+    "xgb_min_child_weight_grid": [
+      1.0
+    ]
+  },
+  "xgb_global_tuning": {
+    "enabled": true,
+    "tune_series": 12,
+    "n_candidates": 4,
+    "best_ar_candidate": {
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "min_child_weight": 1.0
+    },
+    "best_ar_val_rmse_mean": 0.08627935292923794,
+    "best_fusion_candidate": {
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "min_child_weight": 1.0
+    },
+    "best_fusion_val_rmse_mean": 0.07571907883350466
+  }
+}

@@ -1,0 +1,7 @@
+context	coverage_tertile_median_population_coverage	n_cells_robust_global	best_weighted_delta_rmse_fusion_minus_ar	best_delta_params	worst_weighted_delta_rmse_fusion_minus_ar	worst_delta_params	best_weighted_winrate_fusion_better	best_winrate_params	any_cell_fusion_improves_weighted_rmse
+early_warning	high	24	0.05723748612949474	delay=0,miss=0,rev=0.3	0.11782784553107939	delay=4,miss=0.2,rev=0.3	0.2248062015503876	delay=3,miss=0.2,rev=0.3	0
+early_warning	low	24	0.07846746598564809	delay=0,miss=0.1,rev=0.3	0.1828178003891215	delay=3,miss=0.2,rev=0	0.28	delay=0,miss=0.1,rev=0.3	0
+early_warning	mid	24	0.04962028156795208	delay=0,miss=0,rev=0.3	0.1801308870062069	delay=4,miss=0.2,rev=0	0.24489795918367346	delay=2,miss=0.1,rev=0.3	0
+with_current_y	high	22	0.04089270250935291	delay=0,miss=0,rev=0.3	0.09838820015247297	delay=4,miss=0.1,rev=0.3	0.2248062015503876	delay=4,miss=0.2,rev=0.3	0
+with_current_y	low	22	0.03674521240107719	delay=0,miss=0.1,rev=0	0.1828178003891215	delay=4,miss=0.2,rev=0	0.30701754385964913	delay=0,miss=0.1,rev=0.3	0
+with_current_y	mid	22	0.03933706056917681	delay=0,miss=0,rev=0.3	0.15069805429657931	delay=4,miss=0.2,rev=0	0.26582278481012656	delay=0,miss=0.1,rev=0	0

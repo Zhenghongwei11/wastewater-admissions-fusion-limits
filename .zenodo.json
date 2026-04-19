@@ -1,0 +1,23 @@
+{
+  "title": "Wastewater–Admissions Fusion Limits: Public Reproducibility Package",
+  "upload_type": "software",
+  "description": "Reproducibility package for a national evaluation of state-scale wastewater–admissions fusion forecasting under reporting constraints in U.S. respiratory surveillance.",
+  "creators": [
+    {
+      "name": "Zheng, Hongwei",
+      "affiliation": "Quanzhou Medical College, Quanzhou, Fujian 362000, China",
+      "orcid": ""
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "wastewater-based epidemiology",
+    "respiratory viruses",
+    "forecasting",
+    "hospital admissions",
+    "NWSS",
+    "NHSN"
+  ],
+  "notes": "This record is intended to be created automatically via the Zenodo GitHub integration when a GitHub Release is published."
+}
+

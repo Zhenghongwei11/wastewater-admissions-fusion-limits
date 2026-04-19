@@ -1,0 +1,61 @@
+{
+  "as_of_week_end": [
+    "2023-12-30",
+    "2024-04-06",
+    "2024-12-28",
+    "2025-12-27",
+    "2026-04-04"
+  ],
+  "context": "both",
+  "generated_at_utc": "2026-04-16T18:20:13.525993+00:00",
+  "horizons": "1,2,3,4",
+  "mape_eps": 1e-05,
+  "out": {
+    "benchmark": "results/benchmark/state_hosp_asof_forecast_benchmark.per100k.tsv",
+    "summary": "results/benchmark/state_hosp_asof_forecast_benchmark_summary.per100k.tsv"
+  },
+  "panel_in": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+  "per_asof": [
+    {
+      "ablation": "tmp/asof_state_hosp_benchmark/benchmark.asof_2023-12-30.ablation.tsv",
+      "as_of_week_end": "2023-12-30",
+      "benchmark": "tmp/asof_state_hosp_benchmark/benchmark.asof_2023-12-30.tsv",
+      "panel": "tmp/asof_state_hosp_benchmark/panel.asof_2023-12-30.tsv",
+      "summary": "tmp/asof_state_hosp_benchmark/benchmark.asof_2023-12-30.summary.tsv"
+    },
+    {
+      "ablation": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-04-06.ablation.tsv",
+      "as_of_week_end": "2024-04-06",
+      "benchmark": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-04-06.tsv",
+      "panel": "tmp/asof_state_hosp_benchmark/panel.asof_2024-04-06.tsv",
+      "summary": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-04-06.summary.tsv"
+    },
+    {
+      "ablation": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-12-28.ablation.tsv",
+      "as_of_week_end": "2024-12-28",
+      "benchmark": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-12-28.tsv",
+      "panel": "tmp/asof_state_hosp_benchmark/panel.asof_2024-12-28.tsv",
+      "summary": "tmp/asof_state_hosp_benchmark/benchmark.asof_2024-12-28.summary.tsv"
+    },
+    {
+      "ablation": "tmp/asof_state_hosp_benchmark/benchmark.asof_2025-12-27.ablation.tsv",
+      "as_of_week_end": "2025-12-27",
+      "benchmark": "tmp/asof_state_hosp_benchmark/benchmark.asof_2025-12-27.tsv",
+      "panel": "tmp/asof_state_hosp_benchmark/panel.asof_2025-12-27.tsv",
+      "summary": "tmp/asof_state_hosp_benchmark/benchmark.asof_2025-12-27.summary.tsv"
+    },
+    {
+      "ablation": "tmp/asof_state_hosp_benchmark/benchmark.asof_2026-04-04.ablation.tsv",
+      "as_of_week_end": "2026-04-04",
+      "benchmark": "tmp/asof_state_hosp_benchmark/benchmark.asof_2026-04-04.tsv",
+      "panel": "tmp/asof_state_hosp_benchmark/panel.asof_2026-04-04.tsv",
+      "summary": "tmp/asof_state_hosp_benchmark/benchmark.asof_2026-04-04.summary.tsv"
+    }
+  ],
+  "ridge_alpha": 1.0,
+  "target_y_col": "hosp_admissions_per_100k",
+  "test_weeks": 13,
+  "tmp_root": "/Users/lgmoon/Desktop/mglxbx/tmp/asof_state_hosp_benchmark",
+  "ww_lags": 4,
+  "y_lags": 4
+}

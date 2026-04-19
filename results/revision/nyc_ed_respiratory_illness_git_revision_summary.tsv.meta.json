@@ -1,0 +1,12 @@
+{
+  "file_path": "data/ED_data_respiratory_illness.csv",
+  "generated_at_utc": "2026-04-17T15:03:37.783817+00:00",
+  "n_commits_considered": 20,
+  "out": {
+    "summary": "results/revision/nyc_ed_respiratory_illness_git_revision_summary.tsv",
+    "trajectory": "results/revision/nyc_ed_respiratory_illness_git_trajectory.tsv"
+  },
+  "repo_dir": "data/external/nychealth_respiratory-illness-data",
+  "repo_url": "https://github.com/nychealth/respiratory-illness-data.git",
+  "since": "2025-12-01"
+}

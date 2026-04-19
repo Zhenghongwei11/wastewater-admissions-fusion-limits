@@ -1,0 +1,31 @@
+{
+  "cfg": {
+    "ridge_alpha": 1.0,
+    "tol_abs": 0.05,
+    "tol_rel": 0.01,
+    "train_window_weeks": 12,
+    "y_lags": 2
+  },
+  "final_commit_sha": "f0bbda2d5ac7e4b34f905c4300b03d130440a58d",
+  "generated_at_utc": "2026-04-17T15:26:17.170189+00:00",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "metrics": [
+    "Respiratory illness hospitalizations",
+    "Respiratory illness visits"
+  ],
+  "origins_since": "2026-01-01",
+  "out": {
+    "preds": "results/revision/nyc_time_machine_forecast_predictions.tsv",
+    "stability": "results/revision/nyc_time_machine_forecast_stability.tsv"
+  },
+  "rows": {
+    "preds": 42,
+    "stability": 12
+  },
+  "trajectory": "results/revision/nyc_ed_respiratory_illness_git_trajectory.tsv"
+}

@@ -1,0 +1,17 @@
+{
+  "bootstrap": {
+    "ci_alpha": 0.05,
+    "n_boot": 2000,
+    "seed": 7
+  },
+  "generated_at_utc": "2026-04-16T17:41:12.029885+00:00",
+  "inputs": {
+    "benchmark": "results/benchmark/state_hosp_forecast_benchmark.tsv",
+    "negative_control": "results/robustness/state_hosp_negative_control_shuffle_benchmark.tsv"
+  },
+  "outputs": {
+    "bootstrap": "results/benchmark/state_hosp_fusion_delta_bootstrap_summary.tsv",
+    "delta": "results/benchmark/state_hosp_fusion_delta_by_series.tsv",
+    "neg_summary": "results/robustness/state_hosp_negative_control_shuffle_effect_summary.tsv"
+  }
+}

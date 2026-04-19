@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-04-16T18:12:45.116411+00:00",
+  "config": {
+    "panel_tsv": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+    "subset": "geo_matched_state",
+    "y_lags": 4,
+    "ww_lags": 4,
+    "test_weeks": 52,
+    "ridge_alpha": 1.0,
+    "mape_epsilon": 1e-05,
+    "include_seasonal_naive": false,
+    "context": "both",
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "target_y_col": "hosp_admissions_log1p",
+  "inputs": {
+    "panel_tsv": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv"
+  },
+  "outputs": {
+    "benchmark_tsv": "results/benchmark/state_hosp_forecast_benchmark.log1p.tsv",
+    "summary_tsv": "results/benchmark/state_hosp_forecast_benchmark_summary.log1p.tsv",
+    "ablation_tsv": "results/ablation/state_hosp_signal_ablation.log1p.tsv"
+  },
+  "rows": {
+    "benchmark": 4768,
+    "summary": 24,
+    "ablation": 2384
+  }
+}

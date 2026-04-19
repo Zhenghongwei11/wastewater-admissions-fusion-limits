@@ -1,0 +1,13 @@
+context	pathogen	model_id	n_series	median_dir_acc_nonzero	mean_dir_acc_nonzero	median_peak_timing_abs_error_weeks	mean_peak_timing_abs_error_weeks
+early_warning	COVID-19	ridge_ar	50	0.5	0.5016809899496983	19.5	19.48
+early_warning	COVID-19	ridge_fusion	50	0.4775828460038986	0.4921942017359641	20.0	19.82
+early_warning	Influenza	ridge_ar	49	0.5	0.5122055418825661	19.0	20.918367346938776
+early_warning	Influenza	ridge_fusion	49	0.5	0.49773076193021926	18.0	20.367346938775512
+early_warning	RSV	ridge_ar	49	0.5	0.49873627896334316	12.0	15.306122448979592
+early_warning	RSV	ridge_fusion	49	0.5263157894736842	0.5182125398811918	16.0	16.836734693877553
+with_current_y	COVID-19	ridge_ar	50	0.4055059523809524	0.37747580830306776	17.5	16.96
+with_current_y	COVID-19	ridge_fusion	50	0.38461538461538464	0.3959958524590394	13.5	17.26
+with_current_y	Influenza	ridge_ar	49	0.40625	0.3915808914077062	19.0	19.408163265306122
+with_current_y	Influenza	ridge_fusion	49	0.4	0.39593203308833036	18.0	18.714285714285715
+with_current_y	RSV	ridge_ar	49	0.375	0.3727621313102318	11.0	12.877551020408163
+with_current_y	RSV	ridge_fusion	49	0.4146341463414634	0.41095053788524033	15.0	15.775510204081632

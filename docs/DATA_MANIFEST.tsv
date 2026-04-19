@@ -1,0 +1,9 @@
+source_id	description	access	primary_url	license_notes
+CDC_NWSS_COVID_WW	NWSS wastewater (SARS-CoV-2) via CDC Socrata	API	https://data.cdc.gov/resource/j9g8-acpt.json	US Government work (verify landing page)
+CDC_NWSS_FLUA_WW	NWSS wastewater (Influenza A) via CDC Socrata	API	https://data.cdc.gov/resource/ymmh-divb.json	US Government work (verify landing page)
+CDC_NWSS_RSV_WW	NWSS wastewater (RSV) via CDC Socrata	API	https://data.cdc.gov/resource/45cq-cw4i.json	US Government work (verify landing page)
+CDC_NHSN_HRD_WEEKLY_JURISDICTION	NHSN weekly hospital admissions by jurisdiction (COVID/Flu/RSV) via CDC Socrata	API	https://data.cdc.gov/resource/ua7e-t2fy.json	US Government work (verify landing page)
+US_CENSUS_ACS5_US_COUNTY_COVARIATES	ACS 5-year county covariates (population denominator) via Census API	API	https://api.census.gov/data/2024/acs/acs5	Census API terms apply (verify metadata)
+CDC_ATSDR_SVI_2022_COUNTY	CDC/ATSDR SVI 2022 county attributes via ArcGIS FeatureServer	API	https://onemap.cdc.gov/OneMapServices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/1	Verify CDC/ATSDR SVI terms on landing page
+NYC_RESP_REVISION_HISTORY	Public revision history used for stability-window example	Versioned repository	https://github.com/nychealth/respiratory-illness-data	Check repository license/terms; used only for aggregated public indicators
+

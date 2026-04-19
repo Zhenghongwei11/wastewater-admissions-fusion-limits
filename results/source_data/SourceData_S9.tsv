@@ -1,0 +1,2 @@
+panel	start_week_end	end_week_end	n_geographies	pathogens	series_count	weeks_per_series_median	weeks_per_series_p10	weeks_per_series_p90	wastewater_missing_fraction	admissions_missing_fraction
+wastewater_hosp_panel.geo_matched_state.tsv	2023-01-07	2026-04-04	52	COVID-19,Influenza,RSV	154	170.0	120.9	170.0	0.0	0.00928973130597792

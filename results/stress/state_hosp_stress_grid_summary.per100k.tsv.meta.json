@@ -1,0 +1,39 @@
+{
+  "context": "both",
+  "generated_at_utc": "2026-04-17T16:36:59.019987+00:00",
+  "grid": {
+    "delays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "missing_fracs": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "revision_fracs": [
+      0.0,
+      0.3
+    ],
+    "revision_scale": 0.2,
+    "seed": 7
+  },
+  "horizons": "1,2,3,4",
+  "mape_eps": 1e-05,
+  "n_runs": 30,
+  "out": {
+    "combined_summary": "results/stress/state_hosp_stress_grid_summary.per100k.tsv",
+    "overall": "results/stress/state_hosp_stress_grid_overall.per100k.tsv"
+  },
+  "out_dir": "results/stress/state_hosp_stress_grid/per100k_v1",
+  "panel": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+  "ridge_alpha": 1.0,
+  "subset": "geo_matched_state",
+  "test_weeks": 52,
+  "ww_lags": 4,
+  "y_col": "hosp_admissions_per_100k",
+  "y_lags": 8
+}

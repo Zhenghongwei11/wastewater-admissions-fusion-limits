@@ -1,0 +1,7 @@
+services:
+  repro:
+    build: .
+    working_dir: /repo
+    volumes:
+      - ./:/repo
+

@@ -1,0 +1,2 @@
+subset	n_series	mean_rmse_ridge_ar	mean_rmse_ridge_fusion	mean_rmse_rf_tuned_ar	mean_rmse_rf_tuned_fusion	mean_rmse_hgb_ar	mean_rmse_hgb_fusion	mean_rmse_xgb_ar	mean_rmse_xgb_fusion	ridge_fusion_win_rate	rf_tuned_fusion_win_rate	hgb_fusion_win_rate	xgb_fusion_win_rate
+geo_matched_state	150.0	0.06262131018867233	0.07421884511556158	0.118226752446349	0.14241809918886672	0.11455382579494071	0.12390850888681797	0.1887025946561656	0.22565893435232756	0.1	0.4266666666666667	0.3933333333333333	0.43333333333333335

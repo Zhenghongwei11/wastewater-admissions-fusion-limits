@@ -1,0 +1,2 @@
+alpha	n_tests	n_significant_any	frac_significant_any	n_significant_fusion_worse	frac_significant_fusion_worse	n_significant_fusion_better	frac_significant_fusion_better	notes
+0.05	150	67	0.44666666666666666	66	0.44	1	0.006666666666666667	Benjamini–Hochberg FDR applied to two-sided DM p-values across all state–pathogen series.

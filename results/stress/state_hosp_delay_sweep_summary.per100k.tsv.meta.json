@@ -1,0 +1,58 @@
+{
+  "context": "both",
+  "delays": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "feature_missing_frac": 0.0,
+  "feature_revision_frac": 0.0,
+  "feature_revision_scale": 0.2,
+  "feature_seed": 7,
+  "generated_at_utc": "2026-04-17T16:16:10.162001+00:00",
+  "horizons": "1,2,3,4",
+  "mape_eps": 1e-05,
+  "out_dir": "results/stress/state_hosp_delay_sweep/per100k",
+  "out_summary": "results/stress/state_hosp_delay_sweep_summary.per100k.tsv",
+  "panel": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+  "per_delay": [
+    {
+      "ablation_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_signal_ablation.delay0.tsv",
+      "benchmark_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark.delay0.tsv",
+      "summary_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark_summary.delay0.tsv",
+      "y_delay_weeks": 0
+    },
+    {
+      "ablation_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_signal_ablation.delay1.tsv",
+      "benchmark_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark.delay1.tsv",
+      "summary_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark_summary.delay1.tsv",
+      "y_delay_weeks": 1
+    },
+    {
+      "ablation_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_signal_ablation.delay2.tsv",
+      "benchmark_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark.delay2.tsv",
+      "summary_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark_summary.delay2.tsv",
+      "y_delay_weeks": 2
+    },
+    {
+      "ablation_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_signal_ablation.delay3.tsv",
+      "benchmark_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark.delay3.tsv",
+      "summary_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark_summary.delay3.tsv",
+      "y_delay_weeks": 3
+    },
+    {
+      "ablation_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_signal_ablation.delay4.tsv",
+      "benchmark_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark.delay4.tsv",
+      "summary_tsv": "results/stress/state_hosp_delay_sweep/per100k/state_hosp_forecast_benchmark_summary.delay4.tsv",
+      "y_delay_weeks": 4
+    }
+  ],
+  "ridge_alpha": 1.0,
+  "subset": "geo_matched_state",
+  "test_weeks": 52,
+  "ww_lags": 4,
+  "y_col": "hosp_admissions_per_100k",
+  "y_lags": 8
+}

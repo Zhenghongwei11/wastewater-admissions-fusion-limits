@@ -1,0 +1,7 @@
+context	svi_tertile	n_cells_robust_global	best_weighted_delta_rmse_fusion_minus_ar	best_delta_params	worst_weighted_delta_rmse_fusion_minus_ar	worst_delta_params	best_weighted_winrate_fusion_better	best_winrate_params	any_cell_fusion_improves_weighted_rmse
+early_warning	high	24	0.06097834014646748	delay=0,miss=0.1,rev=0.3	0.14933204862227417	delay=4,miss=0.2,rev=0	0.25	delay=0,miss=0.1,rev=0.3	0
+early_warning	low	24	0.06421734653677803	delay=0,miss=0.1,rev=0.3	0.24753997175950804	delay=4,miss=0.2,rev=0	0.2792207792207792	delay=0,miss=0.1,rev=0.3	0
+early_warning	mid	24	0.045311749267487815	delay=0,miss=0.1,rev=0	0.12997620862117223	delay=2,miss=0.1,rev=0.3	0.2107843137254902	delay=0,miss=0,rev=0.3	0
+with_current_y	high	22	0.05597037486116585	delay=0,miss=0.1,rev=0	0.13699974524572073	delay=4,miss=0.2,rev=0	0.25	delay=1,miss=0.1,rev=0.3	0
+with_current_y	low	22	0.03237047699002721	delay=0,miss=0.1,rev=0.3	0.21119041041484174	delay=4,miss=0.1,rev=0	0.2792207792207792	delay=1,miss=0.1,rev=0.3	0
+with_current_y	mid	22	0.032698862407390006	delay=0,miss=0.1,rev=0	0.12997620862117223	delay=3,miss=0.1,rev=0.3	0.22875816993464052	delay=0,miss=0.1,rev=0	0

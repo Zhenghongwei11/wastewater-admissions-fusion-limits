@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-04-17T16:29:27.773747+00:00",
+  "config": {
+    "panel_tsv": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+    "subset": "geo_matched_state",
+    "y_lags": 8,
+    "ww_lags": 4,
+    "test_weeks": 52,
+    "ridge_alpha": 1.0,
+    "mape_epsilon": 1e-05,
+    "include_seasonal_naive": false,
+    "context": "both",
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "y_delay_weeks": 0,
+    "feature_missing_frac": 0.1,
+    "feature_revision_frac": 0.3,
+    "feature_revision_scale": 0.2,
+    "feature_seed": 7
+  },
+  "target_y_col": "hosp_admissions_per_100k",
+  "inputs": {
+    "panel_tsv": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv"
+  },
+  "outputs": {
+    "benchmark_tsv": "/Users/lgmoon/Desktop/mglxbx/results/stress/state_hosp_stress_grid/per100k_v1/state_hosp_forecast_benchmark.delay0_miss010_rev030.tsv",
+    "summary_tsv": "/Users/lgmoon/Desktop/mglxbx/results/stress/state_hosp_stress_grid/per100k_v1/state_hosp_forecast_benchmark_summary.delay0_miss010_rev030.tsv",
+    "ablation_tsv": "/Users/lgmoon/Desktop/mglxbx/results/stress/state_hosp_stress_grid/per100k_v1/state_hosp_signal_ablation.delay0_miss010_rev030.tsv"
+  },
+  "rows": {
+    "benchmark": 3508,
+    "summary": 24,
+    "ablation": 1754
+  }
+}

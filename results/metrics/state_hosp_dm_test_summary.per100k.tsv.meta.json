@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-04-18T06:31:42.402584+00:00",
+  "config": {
+    "panel_path": "results/panels/wastewater_hosp_panel.geo_matched_state.tsv",
+    "subset": "geo_matched_state",
+    "y_col": "hosp_admissions_per_100k",
+    "ww_col": "nwss_conc_mean",
+    "horizon_weeks": 1,
+    "y_lags": 4,
+    "ww_lags": 4,
+    "test_weeks": 52,
+    "min_weeks": 60,
+    "ridge_alpha": 1.0,
+    "loss": "se"
+  }
+}

@@ -1,0 +1,19 @@
+county_fips	pathogen	best_lag_weeks	corr_at_best	n_pairs_at_best	notes
+17043	COVID-19	-2	0.8542539374056292	26	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+17043	Influenza	-1	0.7975230854648132	27	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+17043	RSV	-1	0.9347852829545381	27	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48113	COVID-19	0	0.7374539925418347	214	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48113	Influenza	0	0.756332567434088	214	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48113	RSV	-2	0.813386505185903	212	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48201	COVID-19	1	0.6712542685291003	214	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48201	Influenza	-1	0.7869122001459077	170	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48201	RSV	-2	0.8510955358207318	169	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48453	COVID-19	1	0.7138264052169796	182	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48453	Influenza	1	0.5823481608957302	117	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+48453	RSV	-2	0.21701335100379615	116	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53061	COVID-19	1	0.7353908041371428	131	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53061	Influenza	1	0.8636065805962476	131	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53061	RSV	-1	0.5754490935616028	131	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53063	COVID-19	0	0.7615562033328809	131	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53063	Influenza	0	0.9094326849098981	131	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
+53063	RSV	-1	0.6510865697883408	62	Lag definition: corr( z(NWSS_{t-lag}), z(ED_t) ); positive lag => NWSS leads ED.
