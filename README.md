@@ -38,8 +38,13 @@ All inputs used by the default pipeline are publicly accessible (CDC Socrata end
 
 - `docs/DATA_MANIFEST.tsv`
 
+## Optional evidence bundle (screenshots)
+
+For reviewer verification, this repo also includes a small set of dashboard screenshots under `evidence/` with an index in:
+
+- `docs/EVIDENCE_MANIFEST.tsv`
+
 ## Provenance
 
 - Figure/table provenance: `docs/FIGURE_PROVENANCE.tsv`
 - Statistical decision rules and thresholds: `docs/STATISTICAL_DECISION_RULES.md`
-
