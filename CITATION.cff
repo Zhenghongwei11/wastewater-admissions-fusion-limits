@@ -6,8 +6,7 @@ authors:
     given-names: "Hongwei"
     affiliation: "Quanzhou Medical College, Quanzhou, Fujian 362000, China"
     email: "lgmoon@qzmc.edu.cn"
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-04-19"
 url: "https://github.com/Zhenghongwei11/wastewater-admissions-fusion-limits"
 license: "MIT"
-
