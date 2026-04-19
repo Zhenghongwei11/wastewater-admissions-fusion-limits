@@ -147,7 +147,7 @@ def main() -> int:
 
     ax_hm = fig.add_subplot(gs[0, 0])
     im = ax_hm.imshow(mat, aspect="auto", cmap="RdBu_r", vmin=-vmax, vmax=vmax)
-    ax_hm.set_title("Figure 6 (Route A). Temporal robustness (as-of cutoffs): ΔRMSE (fusion − AR) on admissions")
+    ax_hm.set_title("Temporal robustness (as-of cutoffs): ΔRMSE (fusion − AR) on admissions")
     ax_hm.set_xticks(range(len(asofs)))
     ax_hm.set_xticklabels(asofs, rotation=30, ha="right", fontsize=9)
     ax_hm.set_yticks(range(len(strata)))
@@ -193,4 +193,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
