@@ -82,6 +82,7 @@ if [[ "$FROM_RAW" -eq 1 ]]; then
 fi
 
 echo "[plots] Regenerate figures"
+python3 scripts/make_fig1_study_overview.py --out-prefix plots/fig1_study_overview
 python3 scripts/make_fig2_state_ww_hosp_leadlag.py --out-prefix plots/fig2_state_ww_hosp_leadlag
 python3 scripts/make_fig4_state_hosp_forecast_benchmark.py --out-prefix plots/fig4_state_hosp_forecast_benchmark
 python3 scripts/make_fig5_state_hosp_signal_ablation.py --out-prefix plots/fig5_state_hosp_signal_ablation

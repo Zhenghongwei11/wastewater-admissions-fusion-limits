@@ -6,6 +6,7 @@ This repository provides a **reviewer-facing reproducibility package** for a nat
 
 From public inputs, this package can regenerate:
 
+- Study overview schematic (Figure 1; workflow and supporting analyses)
 - State-scale weekly wastewater × admissions panel (NWSS × NHSN)
 - Forecasting benchmarks (admissions-only baseline vs fusion; 1–4 week lead times)
 - Sensitivity analyses (reporting constraints; paired tests; stratified summaries)

@@ -11,3 +11,8 @@ data/raw/
 logs/
 tmp/
 docs/audit_runs/
+
+# runtime caches
+.cache/
+.home/
+.mplconfig/

@@ -1,4 +1,5 @@
 figure_id	output_files	script	input_tables	notes
+Fig1_StudyOverview	plots/fig1_study_overview.(png|pdf)	scripts/make_fig1_study_overview.py	(none)	Study design and analysis overview schematic
 Fig2_StateLeadLag	plots/fig2_state_ww_hosp_leadlag.(png|pdf)	scripts/make_fig2_state_ww_hosp_leadlag.py	results/leadlag/wastewater_hosp_leadlag.geo_matched_state.tsv	State-scale wastewater↔admissions best-lag distribution
 Fig4_Benchmark	plots/fig4_state_hosp_forecast_benchmark.(png|pdf)	scripts/make_fig4_state_hosp_forecast_benchmark.py	results/benchmark/state_hosp_forecast_benchmark_summary.tsv	State-scale forecasting benchmark (naive vs admissions-only vs fusion)
 Fig5_Ablation	plots/fig5_state_hosp_signal_ablation.(png|pdf)	scripts/make_fig5_state_hosp_signal_ablation.py	results/ablation/state_hosp_ablation_summary.tsv	State-scale ablation summary (fusion vs baseline)
@@ -7,4 +8,3 @@ FigNYC_RevisionDynamics	plots/fig_nyc_revision_dynamics.(png|pdf)	scripts/make_f
 FigNYC_ForecastStability	plots/fig_nyc_forecast_stability.(png|pdf)	scripts/make_fig_nyc_forecast_stability.py	results/revision/nyc_ed_respiratory_illness_git_forecast_stability_summary.tsv	Example revision-history replay (forecast stability)
 FigS1_LagVsGain	plots/figS1_state_hosp_lag_vs_gain.(png|pdf)	scripts/make_figS1_state_hosp_fusion_gain_diagnostic_by_lag.py	results/diagnostics/state_hosp_fusion_gain_diagnostic_by_lag.per100k.tsv	Lead–lag association vs fusion gain diagnostic
 FigS2_EDPositiveControl	plots/figS2_high_fidelity_ed_benchmark.(png|pdf)	scripts/make_figS2_high_fidelity_ed_forecast_benchmark.py	results/benchmark/high_fidelity_forecast_benchmark_summary.tsv	Positive-control benchmark (geo-grain matched ED outcomes)
-
