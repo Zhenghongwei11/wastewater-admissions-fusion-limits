@@ -2,6 +2,11 @@
 
 This repository provides a **reviewer-facing reproducibility package** for a national evaluation of **state-scale wastewater–admissions fusion forecasting** under realistic reporting constraints.
 
+## DOI (Zenodo archive)
+
+- **Version DOI (v0.1.4)**: `10.5281/zenodo.19657212`
+- **Concept DOI**: `10.5281/zenodo.19651979`
+
 ## What this repo reproduces
 
 From public inputs, this package can regenerate:
